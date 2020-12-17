@@ -2,11 +2,8 @@ body {
     background-image: url("google_logo.png");
     background-color: #ffffff;
     background-repeat: no-repeat;
-    background-position: center;
-    background-position: top;
-    background-position-y: 30px;
-    font-family: "";
-   }
+    background-position: 50% 50%;
+  }
 
     #nav-bar {
     text-align: right;
@@ -97,6 +94,7 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    outline: none;
   }
 
   .button-search {
